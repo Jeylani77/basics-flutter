@@ -6,7 +6,7 @@ import 'package:intl/intl.dart';
 
 class MeteoResultPage extends StatefulWidget {
   String query = '';
-  String keyMap = '40b1433f04deb0b90cab28dc51e252d3';
+  String keyMap = 'YOUR_KEY';
   MeteoResultPage({required this.query});
   @override
   _MeteoResultPageState createState() => _MeteoResultPageState();

@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class GalleryResultPage extends StatefulWidget {
   String query;
-  String keyPixabay = '24390630-a03c7c83cc1b908d83d993bf1';
+  String keyPixabay = 'YOUR_KEY';
   int currentPage = 1;
   int totalPages = 0;
   int pageSize = 20;

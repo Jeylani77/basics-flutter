@@ -48,7 +48,7 @@ class _GalleryPageState extends State<GalleryPage> {
                   textEditingController.text = '';
                 },
                 child: Text(
-                  'Get Images',
+                  'Rechercher',
                   style: TextStyle(fontSize: 22, color: Colors.white),
                 )),
           )

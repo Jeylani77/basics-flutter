@@ -78,7 +78,7 @@ class _GalleryResultPageState extends State<GalleryResultPage> {
                         width: double.infinity,
                         padding: EdgeInsets.only(left: 10, right: 10, top: 10),
                         child: Card(
-                          color: Colors.deepOrange,
+                          color: Colors.blue,
                           child: Center(
                             child: Padding(
                               padding: const EdgeInsets.all(10),

@@ -11,10 +11,10 @@ class _CounterPageState extends State<CounterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Counter')),
+      appBar: AppBar(title: Text('Compteur')),
       body: Center(
         child: Text('Valeur Compteur : ${counter}',
-          style: TextStyle(fontSize: 22, color: Colors.deepOrange),),
+          style: TextStyle(fontSize: 22, color: Colors.blue),),
 
       ),
       floatingActionButton: Column(

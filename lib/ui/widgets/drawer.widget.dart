@@ -12,7 +12,7 @@ class MyDrawer extends StatelessWidget {
           DrawerHeader(
               decoration: BoxDecoration(
                   gradient: LinearGradient(
-                      colors: [Colors.white, Colors.deepOrange])),
+                      colors: [Colors.white, Colors.blue])),
               child: Center(
                 child: CircleAvatar(
                   backgroundImage: AssetImage("images/logo.jpg"),
@@ -30,7 +30,7 @@ class MyDrawer extends StatelessWidget {
                   leading: item['icon'],
                   trailing: Icon(
                     Icons.arrow_right,
-                    color: Colors.orange,
+                    color: Colors.blue,
                   ),
                   onTap: () {
                     Navigator.of(context).pop();
@@ -39,7 +39,7 @@ class MyDrawer extends StatelessWidget {
                 ),
                 Divider(
                   height: 4,
-                  color: Colors.deepOrange,
+                  color: Colors.blue,
                 )
               ],
             );

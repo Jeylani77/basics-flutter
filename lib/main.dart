@@ -12,14 +12,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       routes: {
         "/" : (context) => HomePage(),
         "/meteo" : (context) => MeteoPage(),
         "/gallery" : (context) => GalleryPage(),
         "/counter" : (context) => CounterPage(),
       },
-      theme: ThemeData(primarySwatch: Colors.deepOrange),
-      initialRoute: "/meteo",
+      theme: ThemeData(primarySwatch: Colors.blue),
+      initialRoute: "/",
     );
   }
 }

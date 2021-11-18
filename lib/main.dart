@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         "/counter" : (context) => CounterPage(),
       },
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      initialRoute: "/",
+      initialRoute: "/meteo",
     );
   }
 }

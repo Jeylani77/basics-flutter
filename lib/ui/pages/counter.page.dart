@@ -17,7 +17,7 @@ class _CounterPageState extends State<CounterPage> {
           style: TextStyle(fontSize: 22, color: Colors.deepOrange),),
 
       ),
-      floatingActionButton: Row(
+      floatingActionButton: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
@@ -28,7 +28,7 @@ class _CounterPageState extends State<CounterPage> {
               });
             },
           ),
-          SizedBox(width: 10,),
+          SizedBox(height: 10,),
           
           FloatingActionButton(
             child: Icon(Icons.add),

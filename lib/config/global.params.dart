@@ -5,5 +5,6 @@ class GlobalParams {
   {"title" : "Compteur", "icon" : Icon(Icons.home, color: Colors.blue,), "route" : "/counter"},
     {"title" : "Meteo", "icon" : Icon(Icons.map, color: Colors.blue,), "route" : "/meteo"},
     {"title" : "Galerie", "icon" : Icon(Icons.camera, color: Colors.blue,), "route" : "/gallery"},
+    {"title" : "Quizz", "icon" : Icon(Icons.camera, color: Colors.blue,), "route" : "/quizz"},
   ];
 }

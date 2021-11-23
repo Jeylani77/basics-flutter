@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
             ),
             SizedBox(height: 20,),
             Center(
-              child: Text("NB : Open Drawer...",
+              child: Text("NB : Change keyPixabay & keyMap...",
                   style: TextStyle(fontSize: 22, color: Colors.blue)),
             ),
           ],
